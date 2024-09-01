@@ -1,0 +1,48 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: gold;
+    border-radius: 15px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+.buttons{
+    
+    display: grid;
+    grid-template-columns: repeat(4,4rem);
+    padding: 20px;
+}
+button{
+    width: 50px;
+    height: 40px;
+    border-radius: 80px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 0);
+    max-width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 5rem;
+    margin-left: 30rem;
+    margin-right: 15rem;
+    font-size: large;
+    height: 300px;
+}
+#input{
+    width: 97%;
+    padding: 8px;
+    background-color: rgb(91, 91, 91);
+    color: azure;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.operators{
+    background-color: gold;
+}
+.clear{
+    background-color: red;
+}
